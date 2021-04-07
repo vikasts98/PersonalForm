@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = 'stylesheet' href = "Styles.css">
+</head>
+<body>
+	
+		<center>
+			<h2>Personal Details Form</h2>
+			<hr width="30.5%">
+			<div>
+			<form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+				<label for="fname"><strong>First name:</strong></label><br>
+  				<input type="text" id="fname" name="fname"><br>
+  				<label for="lname"><strong>Last name:</strong></label><br>
+  <input type="text" id="lname" name="lname">
+<br>
+<br>
+<label><strong>Enter your mail id: &nbsp;&nbsp;</strong></label>
+<input class="a" type="email" name="urmail">
+<br>
+<br>
+<label><strong>Enter your password: &nbsp;&nbsp;</strong></label>
+<input class="a" type="password" name = "password">
+<br>
+<br>
+
+<label for="DOB"><strong>Enter the date of birth: &nbsp;&nbsp;</strong></label>
+<input class="a" type="date" name="DOB">
+<br>
+<br>
+<strong>
+  <label for="gender">Gender:&nbsp;&nbsp;</label>
+</strong>
+<input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  <br>
+  <br>
+  <strong>
+    <label for="Study">Study:</label>
+  </strong>
+  <br>
+  <input type="checkbox" id="Secondary" name="Secondary" value="10th">
+  <label for="Secondary"> I studied till 10th</label><br>
+  <input type="checkbox" id="SrSecondary" name="SrSecondary" value="12th">
+  <label for="SrSecondary"> I have completed 12th</label><br>
+  <input type="checkbox" id="Grad" name="Grad" value="Grad">
+  <label for="Grad"> I have completed B.Tech</label><br><br>
+
+<label for="course"><strong>Choose a Course:</strong></label>
+<select id="course" name="course">
+  <option value="Arts">Arts</option>
+  <option value="Science">Science</option>
+  <option value="Commerce">Commerce</option>
+</select>
+<br>
+<br>
+<br>
+  <label for="city"><strong>Choose a city:</strong></label>
+  <select  name="city" id="city">
+    <optgroup label="Rajasthan">
+      <option value="jodhpur">Jodhpur</option>
+      <option value="jaipur">Jaipur</option>
+    </optgroup>
+    <optgroup label="Karnataka">
+      <option value="Bangalore">Bangalore</option>
+      <option value="Coorg">Coorg</option>
+    </optgroup>
+  </select>
+  <br><br>
+  <input type="submit">
+</form>
+</center>
+</div>
+<center>
+<footer>
+	<p>The Pavilion, 1st Floor #175 & 176, Bannerghatta Main Rd, JP Nagar 4th Phase, Bilekahalli, Bengaluru, Karnataka 560076</p>
+</footer>
+</center>
+</body>
+</html>
